@@ -1,0 +1,25 @@
+<hr>
+<h1>Este es mi componente</h1>
+    
+<button (click)="aumentarEdad()">Aumentar</button>
+<button (click)="disminuirEdad()">Disminuir</button>
+
+<h3 [style.background]="edad >= 18 ? 'green' : 'red'"
+    [style.color]="'white'">
+    
+    Tu edad es: {{edad}}
+</h3>
+
+<div *ngIf="edad>=18">
+    Eres mayor de edad
+</div>
+<div *ngIf="edad<18">
+    Eres menor de edad
+</div>
+
+<h3>Lista de nombres</h3>
+<ul>
+    <li *ngfor="let nombre of nombres">
+        {{nombre}}
+    </li>
+</ul>
