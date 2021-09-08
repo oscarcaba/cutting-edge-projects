@@ -2,6 +2,7 @@ sudo npm install -g @angular/cli
 npm --version
 ng serve --> levanta un servidor.
 
+code .  --> abrir visualcode desde terminal, colocarse a la altura de package.json
 
 
 
