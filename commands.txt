@@ -1,0 +1,7 @@
+sudo npm install -g @angular/cli
+npm --version
+ng serve --> levanta un servidor.
+
+
+
+
