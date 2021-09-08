@@ -17,17 +17,17 @@ export class MiComponenteComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    alert('Componente mi-componente cargado')
+    console.log('Componente mi-componente cargado')
   }
 
   aumentarEdad(){
     this.edad = this.edad +1;
-    alert("Aumentando edad")
+    console.log("Aumentando edad")
   }
 
   disminuirEdad(){
     this.edad--;
-    alert("Disminuyendo edad")
+    console.log("Disminuyendo edad")
   }
 
 }

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Workspace Mario';
+ 
+  addToCart(){
+    console.log("Aniadiendo producto a carro de compras");
+  }
+
 }
+
+
