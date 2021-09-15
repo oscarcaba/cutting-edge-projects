@@ -1,0 +1,40 @@
+{
+    "Item": [
+      {
+        "id": "001",
+        "name": "Yaal Mint Chocolate 65% No Sugar",
+        "price": 5,
+        "count": 10,
+        "type": "chocolate bars",
+        "subType": "organics",
+        "image": "/assets/images/Mind3D.png"
+      },
+      {
+        "id": "002",
+        "name": "Yaal Almond",
+        "price": 7,
+        "count": 1,
+        "type": "natural",
+        "subType": "",
+        "image": "/assets/images/Almonds3D.png"
+      },
+      {
+        "id": "003",
+        "name": "Yaal Manabi",
+        "price": 7,
+        "count": 1,
+        "type": "organic",
+        "subType": "",
+        "image": "/assets/images/Manabi3D.png"
+      },
+      {
+        "id": "004",
+        "name": "Yaal Caramel",
+        "price": 7,
+        "count": 1,
+        "type": "organic",
+        "subType": "",
+        "image": "/assets/images/3DCaramel.png"
+      }
+    ]
+}

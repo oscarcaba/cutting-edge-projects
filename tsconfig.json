@@ -5,7 +5,7 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -15,11 +15,14 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "resolveJsonModule": true,
     "module": "es2020",
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "es2018",
       "dom"
     ]
+    
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
@@ -27,4 +30,5 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }
-}
+
+ }
