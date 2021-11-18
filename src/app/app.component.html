@@ -84,50 +84,16 @@
 
   </div>
 
-  <!-- Next Steps -->
-  <h2>Next Steps</h2>
-  <p>What do you want to do next with your app?</p>
 
   <input type="hidden" #selection>
 
   <h2>listado de productos</h2>
-  <table>
-    <tr>
-      <th>Id</th>
-      <th>Product Name</th>
-      <th>Image</th>
-      <th>Command</th>
-    </tr>
-    <tr>
-      <td>001</td>
-      <td>Yaal Mint Chocolate 65% No Sugar</td>
-      <td><img src="assets/Mint3D.png"/></td>
-      <td><button (click)="addToCart()">Add</button></td>
-    </tr>
-    <tr>
-      <td>002</td>
-      <td>Yaal Manabí 70%</td>
-      <td><img src="assets/3DManabi.png"/></td>
-      <td><button (click)="addToCart()">Add</button></td>
-    </tr>
-    <tr>
-      <td>003</td>
-      <td>Yaal Almond</td>
-      <td><img src="assets/Almond3D.png"/></td>
-      <td><button (click)="addToCart()">Add</button></td>
-    </tr>
-    <tr>
-      <td>004</td>
-      <td>Yaal Caramel</td>
-      <td><img src="assets/3DCaramel.png"/></td>
-      <td><button (Click)="addToCart()">Add</button></td>
-    </tr>
-  </table>
 
-  <li *ngFor="let p of getProducts">
-
-    <span class="badge">{{p.id}}</span> {{p.name}}
-    <li>
+<table>
+    <tr *ngFor="let p of ListaProductos">
+       <td>{{p.id}}</td> <td> {{p.name}} </td> <td><img src="{{p.image}}"/> </td> <td><button (Click)="addToCart()">Add</button></td>
+    </tr>
+</table>
 
   <div class="card-container">
     <button class="card card-small" (click)="selection.value = 'component'" tabindex="0">
